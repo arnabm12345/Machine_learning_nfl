@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NFL Prediction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>NFL Prediction</h1>
+    <form id="predictionForm">
+     <label for="Name">Name:</label>
+     <input type="string" id="Name" ><br>  
+      <label for="Age">Age:</label>
+      <input type="float" id="Age" ><br>
+
+      <label for="G">Games:</label>
+      <input type="float" id="G" ><br>
+
+      <label for="GS">Games Started:</label>
+      <input type="float" id="GS" ><br>
+
+      <label for="Cmp">Completions:</label>
+      <input type="float" id="Cmp" ><br>
+
+      <label for="Att">Attempts:</label>
+      <input type="float" id="Att" ><br>
+
+      <label for="CmpPercent">Completion Percentage:</label>
+      <input type="float" id="CmpPercent" ><br>
+
+      <label for="Yds">Yards:</label>
+      <input type="float" id="Yds" ><br>
+
+      <label for="TD">Touchdowns:</label>
+      <input type="float" id="TD" ><br>
+
+      <label for="TDPercent">Touchdown Percentage:</label>
+      <input type="float" id="TDPercent" ><br>
+
+      <label for="Int">Interceptions:</label>
+      <input type="float" id="Int" ><br>
+
+      <label for="IntPercent">Interception Percentage:</label>
+      <input type="float" id="IntPercent" ><br>
+
+      <label for="FirstDown">First Downs:</label>
+      <input type="float" id="FirstDown" ><br>
+
+      <label for="Lng">Longest Gain:</label>
+      <input type="float" id="Lng" ><br>
+
+      <label for="YPerA">Yards per Attempt:</label>
+      <input type="float" id="YPerA" ><br>
+
+      <label for="AYPerA">Adjusted Yards per Attempt:</label>
+      <input type="float" id="AYPerA" ><br>
+
+      <label for="YPerC">Yards per Completion:</label>
+      <input type="float" id="YPerC" ><br>
+
+      <label for="YPerG">Yards per Game:</label>
+      <input type="float" id="YPerG" ><br>
+
+      <label for="Sk">Sacks:</label>
+      <input type="float" id="Sk" ><br>
+
+      <label for="YdsPerSk">Yards Lost per Sack:</label>
+      <input type="float" id="YdsPerSk" ><br>
+
+      <label for="SkPercent">Sack Percentage:</label>
+      <input type="float" id="SkPercent" ><br>
+
+      <label for="NYPerA">Net Yards per Attempt:</label>
+      <input type="float" id="NYPerA" ><br>
+
+      <label for="ANYPerA">Adjusted Net Yards per Attempt:</label>
+      <input type="float" id="ANYPerA" ><br>
+
+      <button type="submit" id="submitButton">Calculate Rate</button>
+    </form>
+    <div id="predictionResult" class="hidden">
+      <h2>Prediction Rate Result:</h2>
+      <p id="predictionValue"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
